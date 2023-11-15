@@ -1,1 +1,9 @@
-
+1 : Palindrome Number
+     
+     int t=x,sum=0;
+     while(x>0){
+     int n=x%10;
+     sum=sum*10+n;
+     x=x/10;
+     }
+     return sum == t;
